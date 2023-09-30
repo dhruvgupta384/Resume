@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.scss';
 import Navbar from '../components/Navbar';
 import Image from 'next/image'
 import coder from '../images/coder.jpg'
+
 export default function Home() {
   return (
     <div className={styles.wrapper}>
