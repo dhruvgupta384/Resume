@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.scss';
 import Navbar from '../components/Navbar';
 import Image from 'next/image'
 import coder from '../images/coder.jpg'
+import mypic from '../images/pic.png'
 export default function Home() {
   return (
     <div className={styles.wrapper}>
@@ -17,8 +18,8 @@ export default function Home() {
           My name is Dhruv Gupta
         </p>
         </div>
-        <div>
-        <Image style={{borderRadius:'10px'}} src={coder} alt='Coder' width={500} height={500}>
+        <div className={styles.imagecontainer}>
+        <Image className={styles.image} style={{borderRadius:'10px'}} src={mypic} alt='Coder' width={200} height={200}>
         </Image>
         </div>
         

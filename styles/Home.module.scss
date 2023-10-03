@@ -9,3 +9,18 @@
     align-items: center;
 
 }
+.imagecontainer{
+    background-color: #c2a3e0;
+    display: flex;
+    border-radius: 250px;
+    height: 240px;
+    width: 240px;
+    align-content: center;
+    justify-content: space-around;
+    // border-radius: var(--chakra-radii-full);
+    align-items: center;
+}
+.image{
+    border-radius: 60px !important;
+
+}
