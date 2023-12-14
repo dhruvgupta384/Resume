@@ -92,6 +92,16 @@ export default function Home() {
           <Cards img={uiux} desc="I develop websites that provide a consistent and user-friendly experience, adapting to different screen sizes and devices." inner={"UI/UX"} />
         </div>
       </div>
+      
+
+      
+      
+
+
+
+
+
+
 
       <div className={styles.about}>
         <h1 className={styles.about__head}>
