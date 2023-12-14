@@ -12,7 +12,7 @@ function Navbar() {
       };
   return (
     <div className={styles.container}>
-        <div style={{width:'90%',display:'flex',width:'90%',justifyContent:'space-between'}}>
+        <div className={styles.newnavbar}>
         <div className={styles.nav}>
                 Dhruv Gupta 
         </div>

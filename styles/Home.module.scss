@@ -137,6 +137,9 @@
         text-align: center;
         margin: auto;
         width: 70%;
+        @media (max-width:900px) {
+            width: 100%;
+        }
     }
 }
 .parentCon{
