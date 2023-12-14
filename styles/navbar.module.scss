@@ -1,7 +1,6 @@
 .container{
     box-shadow: 0 12px 37px 1px rgba(0,0,0,.08);
     
-    color: white;
     height: 74px;
  
     position: sticky;
@@ -11,6 +10,10 @@
     justify-content: center;
     cursor:pointer;
     width: 100%;
+    backdrop-filter: blur(4px);
+    position: fixed;
+    color: gray;
+    z-index: 2;
 }
 .navbarsub{
     display: flex;

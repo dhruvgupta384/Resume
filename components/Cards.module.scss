@@ -1,0 +1,25 @@
+.imageContainer{
+    min-width: 80%;
+    height: 80%;
+}
+.container{
+    max-width: 28%;
+    background-color: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition:transform 0.5s;
+    @media(max-width:900px) {
+        min-width: 50%; 
+    }
+}
+.container:hover{
+    transform: scale(1.1) !important;
+    cursor: pointer;
+}
+.image{
+    border-radius: 15px;
+    height: 170px;
+    object-fit: cover;
+    max-width: 100%;
+}

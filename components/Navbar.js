@@ -24,7 +24,7 @@ function Navbar() {
                 Contact
             </p>
             
-                <p onClick={saveFile} style={{fontSize:'20px',color:'white',textDecoration:'none'}}>
+                <p onClick={saveFile} style={{fontSize:'20px',textDecoration:'none'}}>
                     Download
                     </p>
 
